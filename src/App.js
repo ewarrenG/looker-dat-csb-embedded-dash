@@ -38,6 +38,7 @@ export default function App() {
   }, [accessToken]);
 
   //embed dashboard
+  //did this change occur?
   useEffect(() => {
     if (sdk && !dashboardEmbedded) {
       createUrlAndEmbedDashboard();
